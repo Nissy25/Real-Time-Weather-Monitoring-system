@@ -67,7 +67,7 @@ The system requires the following dependencies to run:
 
 #### Step 1: clone the repository
 
-[Clone the repository from GitHub]()
+[Clone the repository from GitHub](https://github.com/Nissy25/Real-Time-Weather-Monitoring-system.git)
 
 #### Step 2: Install Dependencies
 
