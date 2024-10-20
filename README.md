@@ -14,19 +14,17 @@
 
 6.Running the Code
 
-7.Docker Setup
+7.Design Choices
 
-8.Design Choices
+8.API Documentation
 
-9.API Documentation
+9.How the Weather Monitoring System Works
 
-10.How the Weather Monitoring System Works
+10.Testing
 
-11.Testing
+11.Contributing
 
-12.Contributing
-
-13.License
+12.License
 
 ---
 ### Project Overview
@@ -45,7 +43,7 @@ This Real-Time Weather Monitoring System ingests live weather data from various 
 
   c) Minimum Temperature: Tracks the lowest temperature recorded.
 
-  d) Dominant Weather Condition: Determines the most frequent weather condition  based on frequency of occurrence.
+  d) Dominant Weather Condition: Determines the most frequent weather condition  based on occurance.
 - Historical Weather Trends: Stores daily weather summariesin a database for historical analysis and trends.
 - Visualization of Weather Data: Data visualization to represent daily weather summaries and trends.
 ---
@@ -111,7 +109,7 @@ uvicorn app.main:app --reload
 ```
 This will start the FastAPI application at http://127.0.0.1:8000
 
-### Docker Setup
+#### Docker Setup
 
 - The application can be run inside a Docker container for easier setup.
 
