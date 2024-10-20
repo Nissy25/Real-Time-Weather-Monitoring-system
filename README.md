@@ -24,7 +24,7 @@
 
 11.Contributing
 
-12.License
+12.Conclusion
 
 ---
 ### Project Overview
